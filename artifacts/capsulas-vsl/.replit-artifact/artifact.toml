@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Cápsulas — libro y propósito"
+description = "Landing page VSL para presentar y vender el libro Cápsulas de Hernán Brito. Incluye una presentación del libro, video de venta, biografía del autor y contacto de compra por WhatsApp."
+version = "1.0.0"
+id = "artifacts/capsulas-vsl"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 20622
+
+[services.development]
+run = "pnpm --filter @workspace/capsulas-vsl run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/capsulas-vsl", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/capsulas-vsl/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "20622"
+BASE_PATH = "/"

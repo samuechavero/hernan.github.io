@@ -1,0 +1,34 @@
+Actúa como un desarrollador web experto en embudos de venta y diseño de interfaces. Crea una Landing Page VSL (Video Sales Letter) de alto impacto utilizando React, Vite y Tailwind CSS. La web debe ser 100% responsiva (Mobile First) y estar enfocada en la conversión para vender un libro.
+
+**Diseño y Paleta de Colores:**
+*   Fondo principal: Negro profundo (#000000 o muy oscuro) para máxima elegancia.
+*   Acentos y Botones: Dorado metálico (puedes usar degradados dorados con Tailwind) para mantener la identidad visual del libro.
+*   Tipografía: Sans-serif moderna, limpia y altamente legible (ej. Inter, Montserrat o Roboto), utilizando color blanco y dorado para los textos.
+*   Efecto Especial CSS: El botón principal de llamado a la acción debe incluir un efecto de brillo/reflejo animado (shimmer/glow effect) continuo, simulando un haz de luz cruzando el dorado para capturar la atención.
+
+**Estructura de Componentes:**
+
+1. **Hero Section:**
+   *   Un título (H1) grande, audaz y centrado. Texto: "CÁPSULAS: ¿Estás viviendo con propósito o en modo automático?"
+
+2. **Sección VSL (Video):**
+   *   Inmediatamente debajo del título, coloca un contenedor responsivo con relación de aspecto 16:9. Añade un borde sutil dorado o una ligera sombra difuminada al contenedor del video.
+
+3. **Sección del Libro y Call to Action (CTA):**
+   *   Diseña un layout de dos columnas en pantallas grandes (apilado en móviles).
+   *   Columna izquierda: Espacio reservado para la portada del libro utilizando el diseño de "Capsulas-Portada-PRINT.pdf".
+   *   Columna derecha: Inserta el siguiente texto descriptivo: "Cápsulas es una llamada de atención directa y al corazón. A través de reflexiones breves pero contundentes, te confrontará con preguntas que muchos esquivan y te dará herramientas reales para fundamentar tu vida sobre la única Verdad que no tambalea: la Biblia. Tenés en tus manos 22 dosis de fe sin filtro."
+   *   Botón CTA: Un botón grande y dorado con el texto "Pedí tu libro ahora" y la animación CSS de reflejo de luz. El enlace debe apuntar a WhatsApp: https://wa.me/5493512695486
+
+4. **Sección del Autor (Hernán Brito):**
+   *   Crea un contenedor moderno para presentar al autor utilizando "5D6EA1B8-DB5A-4A89-BC8D-A5A614192577.jpg" o "a1fbb84e-6fd6-465e-ac4b-207f109af033.jpg" con bordes redondeados o en formato circular.
+   *   Texto biográfico: "Mi nombre es Hernán Brito, conocido cariñosamente como «el Perro». Soy cordobés, abogado y un apasionado de los estudios teológicos. Estoy felizmente casado con mi amada esposa Cintia, con quien compartimos la aventura de ser papás de Felipe."
+   *   Iconos minimalistas de redes sociales con los siguientes enlaces:
+       *   WhatsApp: +54 9 3512 69-5486
+       *   Facebook: https://www.facebook.com/hernanelias.brito.1?locale=es_LA
+       *   Instagram: https://www.instagram.com/hernanelperro/
+
+5. **Footer:**
+   *   Fondo negro, texto centrado, dorado sutil. Texto: "© 2026 Hernán Brito. Todos los derechos reservados."
+
+Genera el código completo de la aplicación, separando los componentes de manera ordenada.
