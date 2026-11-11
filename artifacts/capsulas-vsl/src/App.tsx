@@ -38,16 +38,16 @@ function App() {
             CÁPSULAS: ¿Estás viviendo con propósito o en modo automático?
           </h1>
           <div className="mx-auto mt-8 max-w-[560px]">
-            <div className="relative aspect-video overflow-hidden border border-[#645231]/55 bg-[#100f0d]" role="img" aria-label="Espacio reservado para el video de presentación de Cápsulas">
-              <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_115%,rgba(179,139,61,.18),transparent_55%)]" />
-              <div className="absolute inset-4 border border-[#c6a45c]/15 sm:inset-6" />
-              <div className="absolute inset-0 flex flex-col items-center justify-center px-5 text-center">
-                <div className="mb-4 grid h-12 w-12 place-items-center rounded-full border border-[#c6a45c]/50 text-[#d5b66c]"><BookOpen size={19} strokeWidth={1.4} /></div>
-                <p className="text-[9px] uppercase tracking-[.3em] text-[#d5b66c]">Presentación en video</p>
-                <p className="mt-2 max-w-sm font-serif text-lg text-[#ddd7ca] sm:text-xl">Próximamente, una charla sobre Cápsulas</p>
-              </div>
-              <span className="absolute bottom-3 left-4 hidden text-[8px] uppercase tracking-[.2em] text-[#777064] sm:block">CÁPSULAS — HERNÁN BRITO</span>
-              <span className="absolute bottom-3 right-4 hidden text-[8px] uppercase tracking-[.2em] text-[#777064] sm:block">16:9</span>
+            <div className="relative aspect-video overflow-hidden border border-[#645231]/55 bg-[#100f0d] shadow-2xl">
+              <video
+                src="./hernan.mp4"
+                controls
+                playsInline
+                preload="metadata"
+                className="h-full w-full object-cover"
+              >
+                Tu navegador no soporta la reproducción de video.
+              </video>
             </div>
           </div>
           <p className="mx-auto mt-7 max-w-[490px] text-center text-[15px] leading-7 text-[#bdb7ab] md:text-base">
@@ -70,7 +70,7 @@ function App() {
           <div className="absolute left-1/2 top-1/2 h-[78%] w-[70%] -translate-x-1/2 -translate-y-1/2 border border-[#645231]/25" />
           <div className="absolute left-1/2 top-1/2 h-[62%] w-[55%] -translate-x-1/2 -translate-y-1/2 border border-[#645231]/20" />
           <div className="relative w-[53%] max-w-[350px] -rotate-[3deg] md:w-[48%]">
-            <img src="/assets/capsulas-cover.png" alt="Tapa del libro Cápsulas, de Hernán Brito" className="relative z-10 block h-auto w-full object-contain shadow-[18px_22px_45px_rgba(0,0,0,.62)]" />
+            <img src="./assets/capsulas-cover.png" alt="Tapa del libro Cápsulas, de Hernán Brito" className="relative z-10 block h-auto w-full object-contain shadow-[18px_22px_45px_rgba(0,0,0,.62)]" />
             <div className="absolute -bottom-5 left-[10%] right-[6%] h-8 rounded-[50%] bg-[#c69b41]/20 blur-xl" />
           </div>
           <div className="absolute left-[4%] top-[16%] font-serif text-5xl text-[#c6a45c]/60">“</div>
@@ -108,7 +108,7 @@ function App() {
             <a href="https://www.facebook.com/hernanelias.brito.1?locale=es_LA" target="_blank" rel="noreferrer" aria-label="Facebook de Hernán Brito" className="mt-7 inline-flex items-center gap-2 text-xs text-[#d3ba7f] hover:text-[#f0daa4]"><span className="grid h-8 w-8 place-items-center border border-[#665638] font-bold">f</span> Conocé más de Hernán <ArrowRight size={14} /></a>
           </div>
           <figure className="relative order-1 h-[360px] overflow-hidden md:order-2 md:h-[620px]">
-            <img src="/assets/hernan-speaking.jpg" alt="Hernán Brito compartiendo una reflexión en un escenario" className="h-full w-full object-cover object-[center_37%] grayscale-[.12]" />
+            <img src="./assets/hernan-speaking.jpg" alt="Hernán Brito compartiendo una reflexión en un escenario" className="h-full w-full object-cover object-[center_37%] grayscale-[.12]" />
             <div className="absolute inset-0 bg-gradient-to-t from-[#201d18] via-transparent to-[#201d18]/15 md:bg-gradient-to-r md:from-[#201d18]/60 md:via-transparent md:to-transparent" />
             <figcaption className="absolute bottom-5 right-5 text-[9px] uppercase tracking-[.22em] text-white/75">Hernán Brito — compartiendo una reflexión</figcaption>
           </figure>
