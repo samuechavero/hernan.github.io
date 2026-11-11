@@ -1,6 +1,6 @@
 import { ArrowDown, ArrowRight, BookOpen, Instagram, Menu, MessageCircle, Quote, X } from 'lucide-react';
 import { useState } from 'react';
-import { GiftWheelPopup } from '@/components/gift-wheel-popup';
+import { RoulettePopup } from '@/components/roulette-popup';
 
 const orderUrl = 'https://wa.me/5493512695486';
 
@@ -135,8 +135,8 @@ function App() {
         </div>
       </footer>
 
-      {/* Modal Popup Interactivo de Regalos */}
-      <GiftWheelPopup />
+      {/* Modal Popup Gamificado Ruleta de Premios */}
+      <RoulettePopup />
     </main>
   );
 }
