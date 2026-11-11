@@ -2,7 +2,7 @@
   "name": "workspace",
   "version": "0.0.0",
   "license": "MIT",
-  "homepage": "https://samuechavero.github.io/hernan.github.io/",
+  "homepage": "https://www.hernanelperro.com",
   "scripts": {
     "dev": "pnpm --filter @workspace/capsulas-vsl run dev",
     "build": "pnpm --filter @workspace/capsulas-vsl run build",
