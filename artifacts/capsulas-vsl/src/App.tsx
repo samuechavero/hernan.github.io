@@ -1,5 +1,6 @@
 import { ArrowDown, ArrowRight, BookOpen, Instagram, Menu, MessageCircle, Quote, X } from 'lucide-react';
 import { useState } from 'react';
+import { RoulettePopup } from '@/components/roulette-popup';
 
 const orderUrl = 'https://wa.me/5493512695486';
 
@@ -133,6 +134,9 @@ function App() {
           <p className="text-[10px] text-[#726d64]">© 2026 Hernán Brito. Todos los derechos reservados.</p>
         </div>
       </footer>
+
+      {/* Modal Popup Gamificado Ruleta de Premios */}
+      <RoulettePopup />
     </main>
   );
 }
