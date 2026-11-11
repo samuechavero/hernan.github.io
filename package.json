@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "pnpm --filter @workspace/capsulas-vsl run dev",
     "build": "pnpm --filter @workspace/capsulas-vsl run build",
+    "postbuild": "cp dist/index.html dist/404.html",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "typecheck:libs": "tsc --build",

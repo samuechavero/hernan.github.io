@@ -40,7 +40,7 @@ function App() {
           <div className="mx-auto mt-8 max-w-[560px]">
             <div className="relative aspect-video overflow-hidden border border-[#645231]/55 bg-[#100f0d] shadow-2xl">
               <video
-                src="./hernan.mp4"
+                src="/hernan.mp4"
                 controls
                 playsInline
                 preload="metadata"
@@ -70,7 +70,7 @@ function App() {
           <div className="absolute left-1/2 top-1/2 h-[78%] w-[70%] -translate-x-1/2 -translate-y-1/2 border border-[#645231]/25" />
           <div className="absolute left-1/2 top-1/2 h-[62%] w-[55%] -translate-x-1/2 -translate-y-1/2 border border-[#645231]/20" />
           <div className="relative w-[53%] max-w-[350px] -rotate-[3deg] md:w-[48%]">
-            <img src="./assets/capsulas-cover.png" alt="Tapa del libro Cápsulas, de Hernán Brito" className="relative z-10 block h-auto w-full object-contain shadow-[18px_22px_45px_rgba(0,0,0,.62)]" />
+            <img src="/assets/capsulas-cover.png" alt="Tapa del libro Cápsulas, de Hernán Brito" className="relative z-10 block h-auto w-full object-contain shadow-[18px_22px_45px_rgba(0,0,0,.62)]" />
             <div className="absolute -bottom-5 left-[10%] right-[6%] h-8 rounded-[50%] bg-[#c69b41]/20 blur-xl" />
           </div>
           <div className="absolute left-[4%] top-[16%] font-serif text-5xl text-[#c6a45c]/60">“</div>
@@ -108,7 +108,7 @@ function App() {
             <a href="https://www.facebook.com/hernanelias.brito.1?locale=es_LA" target="_blank" rel="noreferrer" aria-label="Facebook de Hernán Brito" className="mt-7 inline-flex items-center gap-2 text-xs text-[#d3ba7f] hover:text-[#f0daa4]"><span className="grid h-8 w-8 place-items-center border border-[#665638] font-bold">f</span> Conocé más de Hernán <ArrowRight size={14} /></a>
           </div>
           <figure className="relative order-1 h-[360px] overflow-hidden md:order-2 md:h-[620px]">
-            <img src="./assets/hernan-speaking.jpg" alt="Hernán Brito compartiendo una reflexión en un escenario" className="h-full w-full object-cover object-[center_37%] grayscale-[.12]" />
+            <img src="/assets/hernan-speaking.jpg" alt="Hernán Brito compartiendo una reflexión en un escenario" className="h-full w-full object-cover object-[center_37%] grayscale-[.12]" />
             <div className="absolute inset-0 bg-gradient-to-t from-[#201d18] via-transparent to-[#201d18]/15 md:bg-gradient-to-r md:from-[#201d18]/60 md:via-transparent md:to-transparent" />
             <figcaption className="absolute bottom-5 right-5 text-[9px] uppercase tracking-[.22em] text-white/75">Hernán Brito — compartiendo una reflexión</figcaption>
           </figure>
