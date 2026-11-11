@@ -380,15 +380,14 @@ export function RoulettePopup({
                 </p>
               </div>
 
-              <a
-                href={ctaUrl}
-                target="_blank"
-                rel="noreferrer"
+              <button
+                type="button"
+                onClick={handleClose}
                 className="gold-shimmer group relative flex w-full items-center justify-center gap-3 rounded-xl bg-[#c6a45c] px-6 py-4 text-sm font-black uppercase tracking-[0.16em] text-[#14120e] shadow-[0_0_28px_rgba(198,164,92,0.45)] transition-all hover:scale-[1.03] hover:bg-[#d6b76e] active:scale-[0.98]"
               >
                 <span>¡Pedilo Ahora!</span>
                 <ArrowRight size={19} className="transition-transform group-hover:translate-x-1" />
-              </a>
+              </button>
 
               <p className="mt-2.5 text-[10px] uppercase tracking-[0.18em] text-[#857e72]">
                 Hablá directo con Hernán para coordinar la entrega
